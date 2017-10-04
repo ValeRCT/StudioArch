@@ -1,0 +1,263 @@
+/* CSS Document */
+
+
+@media screen and (max-width: 480px){
+				#img {
+					display: none;
+				}
+				
+			}
+			
+body{
+  background-color:#f1f1f1; 
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 2em;
+	color: gray;
+}
+
+h2 {
+	text-align: center;
+	color: #00aaa1;
+	font-variant: small-caps;
+	margin-top: 1em;
+    margin-bottom: 1.5em;	
+}
+
+h3 {
+	color: #00aaa1;
+	font-variant: small-caps;
+	margin-top: 1em;
+    margin-bottom: 2em;	
+}
+
+h4 {
+	font-variant: small-caps;
+	margin-top: -1em;
+}
+
+h5 {
+	text-align: right;
+}
+
+h6 {
+	font-variant: small-caps;
+	font-size: 1.5em;
+	margin-bottom: 3.5em;
+	color: gray;
+
+}
+
+footer {
+	background-color: #00aaa1;
+}
+
+footer p {
+	font-variant: small-caps;
+	font-size: 1.5em;
+	margin: 2em;
+}
+
+
+#logo {
+	float: left;
+	margin-top: 1.5em;
+}
+ 
+#come {
+	text-align: left;
+}
+
+#button {
+	background-color: #00aaa1;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	font-size: 1.5em;
+}
+#submit {
+	background-color: #00aaa1;
+	margin-bottom: 2em;
+}
+
+#img {
+	border-radius: 2%;
+}
+
+#articolo {
+	margin-bottom: 5em;
+}
+
+#studio {
+	text-align: center;
+	margin-bottom: 1em;
+	color: #00aaa1;
+}
+
+#blocco {
+	border-radius: 3%;
+    margin-top: 3em;
+}
+
+#blocco p {
+	margin-top: 1em;
+}
+
+#blocco h3 {
+	color: #00aaa1;
+	font-variant: small-caps;
+	margin-top: -0.2em;	
+}
+
+#jumbotron {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	margin-top: 2em;
+	padding: -2em;
+	font-variant: small-caps;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+nav {
+	font-variant: small-caps;
+}
+
+nav li:hover, li:active, li:focus { 
+      background-color: #00aaa1;
+	
+}
+
+.current-page  {
+     background: #00aaa1;
+}
+		
+.title {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;	
+}
+
+.well {
+	text-align: center;
+}
+
+.card {
+	text-align: center;
+	margin-bottom: 4em;
+	margin-top: 1em;
+}
+
+.card h4,h6 {
+	margin-top: 1em;
+}
+
+.glyphicon.glyphicon-list-alt, .glyphicon.glyphicon-upload, .glyphicon.glyphicon-euro, .glyphicon.glyphicon-ok {
+  border-radius:50%;
+  border: 2px #ddd solid;
+  padding:40px;
+  font-size:24px;
+  background-color:#fff;
+  color:#999;
+}
+
+.glyphicon:hover {
+  border-radius:50%;
+  color:#fff;
+  background-color:#ddd;
+}
+
+.line {
+  max-width:100%;
+  min-height:1.5px;
+  background-color: #00aaa1;
+  margin-top:70px;
+  margin-bottom:-55px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.controls {
+	margin-bottom: 3em;
+}
+
+
+.list-inline {
+	margin-top: -1em;
+	margin-bottom: 2em;
+	font-size: 1.5em;
+}
+
+/* blog */
+
+.main-banner{
+    margin-bottom:20px;
+}
+
+.page {
+    background-color:#fff;
+    padding:20px 15px;
+    margin-bottom:20px;
+}
+.page h3{
+    font-size:22px;
+    margin-bottom:12px;
+}
+.page p{
+    font-size:17px;
+    font-weight:500;
+}
+.page .details ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom:18px;
+}
+.page .details ul li{
+   float:left;
+   padding-right:15px;
+   font-size: 13px;
+   font-weight: 600;
+}
+.page .details ul li:last-child {
+  float: inherit;
+}
+.page h4{
+    font-size:13px;
+    font-weight:600;
+}
+
+.widgets{
+    background-color:#fff;
+    padding:20px 15px;
+    margin-bottom:20px;
+}
+.widgets h3{
+    padding-bottom:10px;
+    font-size:20px;
+    margin-bottom:15px;
+    border-bottom:1px solid #eaeaea;
+}
+.widgets ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.widgets ul li{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.widgets h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
